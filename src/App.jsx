@@ -12,18 +12,10 @@ class App extends Component {
       <div>
         <Navigation />
         <div className='container'>
-          <div id='about'>
-            <About />
-          </div>
-          <div id='technologies'>
-            <Technologies />
-          </div>
-          <div id='projects'>
-            <Projects />
-          </div>
-          <div id='blog'>
-            <Blog />
-          </div>
+          <About />
+          <Technologies />
+          <Projects />
+          <Blog />
         </div>
       </div>
     );
