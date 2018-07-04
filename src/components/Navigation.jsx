@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Nav, Navbar, NavItem } from 'react-bootstrap';
+import './Navigation.css';
 
 export class Navigation extends Component {
     render() {

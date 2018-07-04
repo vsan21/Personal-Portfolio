@@ -11,7 +11,7 @@ export class About extends Component {
                 </div>
                 <div id="description-container">
                     <div id='pic'>
-                        <p>Profile Pic</p>
+                        <img src={Profile} alt="Vivian"/>
                     </div>
                     <div id="border"></div>
                     <div id='description'>

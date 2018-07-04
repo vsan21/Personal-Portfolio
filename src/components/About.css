@@ -24,8 +24,16 @@ h1 {
 #pic {
     width: 35%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    padding-right: 5%;
+    /* border: 3px solid red; */
 }
+
+#pic > img {
+    border-radius: 50%;
+    height: 100%;
+    width: 50%;
+} 
 
 #border {
     width: 5%;
@@ -39,3 +47,11 @@ h1 {
     border: 3px solid green;
 }
 
+#description > :first-child {
+    font-size: 
+}
+
+#description > :last-child {
+    line-height: 2;
+    color: #888;
+}
