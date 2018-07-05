@@ -37,12 +37,12 @@ export class Technologies extends Component {
                             <tr>
                                 <td>HTML</td>
                                 <td>MongoDB</td>
-                                <td>Command Line</td>
+                                <td>bash</td>
                             </tr>
                             <tr>
                                 <td>CSS</td>
                                 <td></td>
-                                <td>Atom</td>
+                                <td>VIM</td>
                             </tr>
                         </tbody>
                     </Table>

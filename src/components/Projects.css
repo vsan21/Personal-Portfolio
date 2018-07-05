@@ -1,5 +1,5 @@
 #projects {
-    /* border: 3px solid blue; */
+    border: 3px solid blue;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,14 +8,26 @@
 }
 
 #portfolio {
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
 }
 
-#portfolio img {
-    width: 40vh;
-    height: 30vh;
-    margin-bottom: 2%;
+.view .mask {
+    width: 100% !important;
+    height: 85% !important;
+}
+
+.img-fluid {
+    width: 35vw;
+    height: 85%;
+    margin-bottom: 10%;
+}
+
+.text {
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
 }
