@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Projects.css';
 import MapJourney from '../images/mapjourney.jpg';
 import Eventonica from '../images/eventonica.jpg';
-import Calculator from '../images/calculator.jpg';
+// import Calculator from '../images/calculator.jpg';
 import GithubGuide from '../images/githubguide.jpg';
 import GuessNum from '../images/guessnum.jpg';
 import More from '../images/more.jpg';
@@ -33,7 +33,7 @@ export class Projects extends Component {
                         </a>
                     </div>
                     <div className="view overlay">
-                        <img src={Calculator} className="img-fluid" alt="Calculator" />
+                        <img src={Eventonica} className="img-fluid" alt="Calculator" />
                         <a href='https://github.com/vsan21/React-Calculator'>
                             <div className="mask flex-center rgba-green-strong">
                                 <p className="text">React Calculator</p>
