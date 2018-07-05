@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './About.css';
-import Profile from '../images/me.jpg';
+// import Profile from '../images/me.jpg';
 
 export class About extends Component {
     render() {
@@ -11,7 +11,7 @@ export class About extends Component {
                 </div>
                 <div id="description-container">
                     <div id='pic'>
-                        <img src={Profile} alt="Vivian"/>
+                        <img src={process.env.PUBLIC_URL + '/assets/images/me.jpg'} alt="Vivian"/>
                     </div>
                     <div id="border"></div>
                     <div id='description'>
