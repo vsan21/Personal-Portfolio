@@ -18,7 +18,7 @@ export class Projects extends Component {
                 <div id="portfolio">
                     <div className="view overlay">
                         <img src={MapJourney} className="img-fluid" alt="Map Journey" />
-                        <a href='https://github.com/vsan21/MapJourney'>
+                        <a href='https://github.com/vsan21/MapJourney' target="_blank" rel="noopener noreferrer">
                             <div className="mask flex-center rgba-green-strong">
                                 <p className="text">MapJourney</p>
                             </div>
@@ -26,7 +26,7 @@ export class Projects extends Component {
                     </div>
                     <div className="view overlay">
                         <img src={Eventonica} className="img-fluid" alt="Eventonica" />
-                        <a href='https://github.com/vsan21/Eventonica'>
+                        <a href='https://github.com/vsan21/Eventonica' target="_blank" rel="noopener noreferrer">
                             <div className="mask flex-center rgba-green-strong">
                                 <p className="text">Eventonica</p>
                             </div>
@@ -34,7 +34,7 @@ export class Projects extends Component {
                     </div>
                     <div className="view overlay">
                         <img src={Calculator} className="img-fluid" alt="Calculator" />
-                        <a href='https://github.com/vsan21/React-Calculator'>
+                        <a href='https://github.com/vsan21/React-Calculator' target="_blank" rel="noopener noreferrer">
                             <div className="mask flex-center rgba-green-strong">
                                 <p className="text">React Calculator</p>
                             </div>
@@ -42,7 +42,7 @@ export class Projects extends Component {
                     </div>
                     <div className="view overlay">
                         <img src={GithubGuide} className="img-fluid" alt="Github Dynamic Workflow Guide" />
-                        <a href='https://github.com/vsan21/Git-Github-Tutorial'>
+                        <a href='https://github.com/vsan21/Git-Github-Tutorial' target="_blank" rel="noopener noreferrer">
                             <div className="mask flex-center rgba-green-strong">
                                 <p className="text">Github Dynamic Workflow Guide</p>
                             </div>
@@ -50,7 +50,7 @@ export class Projects extends Component {
                     </div>
                     <div className="view overlay">
                         <img src={GuessNum} className="img-fluid" alt="Guess My Number" />
-                        <a href='https://github.com/vsan21/Guess_My_Number'>
+                        <a href='https://github.com/vsan21/Guess_My_Number' target="_blank" rel="noopener noreferrer">
                             <div className="mask flex-center rgba-green-strong">
                                 <p className="text">Guess My Number</p>
                             </div>
