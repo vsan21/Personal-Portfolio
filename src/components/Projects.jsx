@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './Projects.css';
-import MapJourney from '../images/mapjourney.jpg';
-import Eventonica from '../images/eventonica.jpg';
-import Calculator from '../images/calculator.jpg';
-import GithubGuide from '../images/githubguide.jpg';
-import GuessNum from '../images/guessnum.jpg';
-import More from '../images/more.jpg';
+// import MapJourney from '/mapjourney.jpg';
+// import Eventonica from '/assets/images/eventonica.jpg';
+// import Calculator from '/assets/images/calculator.jpg';
+// import GithubGuide from '/assets/images/githubguide.jpg';
+// import GuessNum from '/assets/images/guessnum.jpg';
+// import More from '/assets/images/more.jpg';
 
 export class Projects extends Component {
     render() {
@@ -17,14 +17,14 @@ export class Projects extends Component {
 
                 <div id="portfolio">
                     <div className="view overlay">
-                        <img src={MapJourney} className="img-fluid" alt="Map Journey" />
+                        <img src={process.env.PUBLIC_URL + '/assets/images/mapjourney.jpg'} className="img-fluid" alt="Map Journey" />
                         <a href='https://github.com/vsan21/MapJourney' target="_blank" rel="noopener noreferrer">
                             <div className="mask flex-center rgba-green-strong">
                                 <p className="text">MapJourney</p>
                             </div>
                         </a>
                     </div>
-                    <div className="view overlay">
+                    {/* <div className="view overlay">
                         <img src={Eventonica} className="img-fluid" alt="Eventonica" />
                         <a href='https://github.com/vsan21/Eventonica' target="_blank" rel="noopener noreferrer">
                             <div className="mask flex-center rgba-green-strong">
@@ -58,7 +58,7 @@ export class Projects extends Component {
                     </div>
                     <div className="view overlay">
                         <img src={More} className="img-fluid" alt="More To Come" />
-                    </div>
+                    </div> */}
                 </div>
                 
             </div>
