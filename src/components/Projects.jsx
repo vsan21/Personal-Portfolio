@@ -1,11 +1,5 @@
 import React, { Component } from 'react';
 import './Projects.css';
-// import MapJourney from '/mapjourney.jpg';
-// import Eventonica from '/assets/images/eventonica.jpg';
-// import Calculator from '/assets/images/calculator.jpg';
-// import GithubGuide from '/assets/images/githubguide.jpg';
-// import GuessNum from '/assets/images/guessnum.jpg';
-// import More from '/assets/images/more.jpg';
 
 export class Projects extends Component {
     render() {
@@ -24,8 +18,8 @@ export class Projects extends Component {
                             </div>
                         </a>
                     </div>
-                    {/* <div className="view overlay">
-                        <img src={Eventonica} className="img-fluid" alt="Eventonica" />
+                    <div className="view overlay">
+                        <img src={process.env.PUBLIC_URL + '/assets/images/eventonica.jpg'} className="img-fluid" alt="Eventonica" />
                         <a href='https://github.com/vsan21/Eventonica' target="_blank" rel="noopener noreferrer">
                             <div className="mask flex-center rgba-green-strong">
                                 <p className="text">Eventonica</p>
@@ -33,7 +27,7 @@ export class Projects extends Component {
                         </a>
                     </div>
                     <div className="view overlay">
-                        <img src={Calculator} className="img-fluid" alt="Calculator" />
+                        <img src={process.env.PUBLIC_URL + '/assets/images/calculator.jpg'} className="img-fluid" alt="Calculator" />
                         <a href='https://github.com/vsan21/React-Calculator' target="_blank" rel="noopener noreferrer">
                             <div className="mask flex-center rgba-green-strong">
                                 <p className="text">React Calculator</p>
@@ -41,7 +35,7 @@ export class Projects extends Component {
                         </a>
                     </div>
                     <div className="view overlay">
-                        <img src={GithubGuide} className="img-fluid" alt="Github Dynamic Workflow Guide" />
+                        <img src={process.env.PUBLIC_URL + '/assets/images/githubguide.jpg'} className="img-fluid" alt="Github Dynamic Workflow Guide" />
                         <a href='https://github.com/vsan21/Git-Github-Tutorial' target="_blank" rel="noopener noreferrer">
                             <div className="mask flex-center rgba-green-strong">
                                 <p className="text">Github Dynamic Workflow Guide</p>
@@ -49,7 +43,7 @@ export class Projects extends Component {
                         </a>
                     </div>
                     <div className="view overlay">
-                        <img src={GuessNum} className="img-fluid" alt="Guess My Number" />
+                        <img src={process.env.PUBLIC_URL + '/assets/images/guessnum.jpg'} className="img-fluid" alt="Guess My Number" />
                         <a href='https://github.com/vsan21/Guess_My_Number' target="_blank" rel="noopener noreferrer">
                             <div className="mask flex-center rgba-green-strong">
                                 <p className="text">Guess My Number</p>
@@ -57,8 +51,8 @@ export class Projects extends Component {
                         </a>
                     </div>
                     <div className="view overlay">
-                        <img src={More} className="img-fluid" alt="More To Come" />
-                    </div> */}
+                        <img src={process.env.PUBLIC_URL + '/assets/images/more.jpg'} className="img-fluid" alt="More To Come" />
+                    </div>
                 </div>
                 
             </div>
