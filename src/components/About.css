@@ -14,7 +14,6 @@ h1 {
 
 /* about container */
 #about {
-    /* border: 3px solid yellow; */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -26,7 +25,6 @@ h1 {
 #description-container {
     display: flex;
     flex-direction: row;
-    /* border: 3px solid green; */
 }
 
 #pic {
@@ -34,7 +32,6 @@ h1 {
     display: flex;
     justify-content: flex-end;
     padding-right: 5%;
-    /* border: 3px solid red; */
 }
 
 #pic > img {
@@ -57,12 +54,10 @@ h1 {
 
 #description > :first-child {
     font-size: 3vw;
-    /* border: 2px solid red; */
 }
 
 #description > :last-child {
     line-height: 2;
     color: #888;
     font-size: 1.2vw;
-    /* border: 2px solid red; */
 }

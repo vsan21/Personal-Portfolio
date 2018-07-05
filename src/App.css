@@ -3,7 +3,6 @@ body {
 }
 
 .intro {
-    border: 3px solid yellow;
     background-image: url('./images/background.jpg');
     background-attachment: fixed;
     background-size: cover;
@@ -12,6 +11,5 @@ body {
 }
 
 .content-container {
-    /* border: 3px solid red; */
     height: 100%;
 }
