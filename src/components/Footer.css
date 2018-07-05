@@ -1,0 +1,21 @@
+#footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 3px solid purple; */
+    margin-bottom: 3%;
+}
+
+#footer-links {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fab, .fa-file-invoice {
+    background-color: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+}
+
+.fa-heart {
+    color: red
+}

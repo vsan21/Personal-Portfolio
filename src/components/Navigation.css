@@ -1,9 +1,25 @@
 /* .navbar {
     border: 0 !important;
     box-shadow: none;
-    background: white;
+    background: transparent;
 } */
 
 .navbar {
     padding: 0.5% 0%;
+    margin-bottom: 0px;
+}
+
+.navbar-brand {
+    color: black;
+    font-size: 2vw;
+}
+
+.navbar-nav>li>a {
+    font-size: 1.05vw;
+}
+
+.navbar-nav>li>a:hover {
+    outline: 0;
+    background: lightgrey !important;
+    border-radius: 5px;
 }

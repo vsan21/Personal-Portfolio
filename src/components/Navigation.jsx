@@ -6,7 +6,7 @@ export class Navigation extends Component {
     render() {
         return (
             <div>
-                <Navbar fluid collapseOnSelect>
+                <Navbar fluid fixedTop collapseOnSelect>
                     <Navbar.Header>
                         <Navbar.Brand>
                             <a href="/">VS</a>
@@ -25,7 +25,7 @@ export class Navigation extends Component {
                                 Projects
                             </NavItem>
                             <NavItem eventKey={2} href="#blog">
-                                Blog
+                                Story
                             </NavItem>
                         </Nav>
                     </Navbar.Collapse>

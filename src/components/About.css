@@ -1,38 +1,46 @@
 @import url('https://fonts.googleapis.com/css?family=Cute+Font');
 
+/* universal styling */
 h1 {
     font-family: 'Cute Font', cursive;
     font-size: 4.3vw;
 }
 
+.header {
+    margin-bottom: 3.5%;
+}
+
+/* ABOUT SECTION */
+
+/* about container */
 #about {
-    border: 3px solid yellow;
+    /* border: 3px solid yellow; */
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.header {
-    margin-bottom: 1.5%;
+    padding: 10% 0% 20% 0%;
+    border-bottom: 1px solid lightgrey;
 }
 
 #description-container {
     display: flex;
     flex-direction: row;
+    /* border: 3px solid green; */
 }
 
 #pic {
-    width: 35%;
+    width: 40%;
     display: flex;
     justify-content: flex-end;
     padding-right: 5%;
+    /* border: 3px solid red; */
 }
 
 #pic > img {
     border-radius: 50%;
     height: 100%;
-    width: 50%;
+    width: 70%;
 } 
 
 #border {
@@ -41,18 +49,20 @@ h1 {
 }
 
 #description {
-    width: 50%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 #description > :first-child {
-    font-size: 2vw;
+    font-size: 3vw;
+    /* border: 2px solid red; */
 }
 
 #description > :last-child {
     line-height: 2;
     color: #888;
-    font-size: 1.1vw;
+    font-size: 1.2vw;
+    /* border: 2px solid red; */
 }

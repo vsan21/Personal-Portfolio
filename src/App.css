@@ -1,12 +1,17 @@
-.navbar {
-    margin-bottom: 0px;
+body {
+    padding-top: 3.6%;
 }
 
-.container {
-    /* border: 3px solid red; */
-    width: 98vw;
+.intro {
+    border: 3px solid yellow;
+    background-image: url('./images/background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+}
+
+.content-container {
+    /* border: 3px solid red; */
+    height: 100%;
 }
