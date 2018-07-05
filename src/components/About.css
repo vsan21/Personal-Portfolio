@@ -18,7 +18,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10% 0% 20% 0%;
+    padding: 8% 0% 20% 0%;
     border-bottom: 1px solid lightgrey;
 }
 
