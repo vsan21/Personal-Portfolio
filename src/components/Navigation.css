@@ -12,6 +12,7 @@
 .navbar-brand {
     color: black;
     font-size: 2vw;
+    font-family: 'Coda Caption', sans-serif;
 }
 
 .navbar-nav>li>a {
