@@ -1,14 +1,6 @@
 {
-  "main.css": "static/css/main.d9cbbde4.css",
-  "main.css.map": "static/css/main.d9cbbde4.css.map",
-  "main.js": "static/js/main.6ec8ca03.js",
-  "main.js.map": "static/js/main.6ec8ca03.js.map",
-  "static/media/background.jpg": "static/media/background.b5347ab4.jpg",
-  "static/media/calculator.jpg": "static/media/calculator.c6f814fa.jpg",
-  "static/media/eventonica.jpg": "static/media/eventonica.8cc8c91c.jpg",
-  "static/media/githubguide.jpg": "static/media/githubguide.89cb80c4.jpg",
-  "static/media/guessnum.jpg": "static/media/guessnum.315b6cc2.jpg",
-  "static/media/mapjourney.jpg": "static/media/mapjourney.e916661e.jpg",
-  "static/media/me.jpg": "static/media/me.3599498f.jpg",
-  "static/media/more.jpg": "static/media/more.9aab3456.jpg"
+  "main.css": "static/css/main.f40ceacb.css",
+  "main.css.map": "static/css/main.f40ceacb.css.map",
+  "main.js": "static/js/main.d13fa57d.js",
+  "main.js.map": "static/js/main.d13fa57d.js.map"
 }
