@@ -16,6 +16,15 @@
     background-color: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
 }
 
+.fab, .fas {
+    font-size: 3vw;
+}
+
 .fa-heart {
-    color: red
+    color: red;
+    font-size: 1vw;
+}
+
+#footer-container > :last-child {
+    font-size: 1.5vw;
 }
