@@ -4,18 +4,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 15% 0% 20% 0%;
+    padding: 12% 0% 20% 0%;
     border-bottom: 1px solid lightgrey;
 }
 
 #tech-skillset {
-    width: 60%;
+    width: 80%;
 }
 
 .table {
     text-align: center;
     border-collapse: separate;
-    border-spacing: 50px 0;
+    border-spacing: 70px 0;
+    padding-right: 5%;
+}
+
+.table-responsive {
+    border: 0 !important;
 }
 
 .table > thead > tr > th {
@@ -34,4 +39,44 @@ hr {
     border: 0 !important;
     font-size: 1.2vw;
     padding: 1.2% 0;
+}
+
+/* iPhone X */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .table {
+        border-spacing: 10px 0;
+    }
+}
+
+/* iPhone 6/7/8 Plus */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .table {
+        border-spacing: 10px 0;
+    }
+}
+
+/* iPhone 6/6S/7/8 */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .table {
+        border-spacing: 10px 0;
+    }
+}
+
+/* iPhone 5s */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .table {
+        border-spacing: 10px 0;
+    }
 }

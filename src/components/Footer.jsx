@@ -12,7 +12,7 @@ export class Footer extends Component {
                     <a href="https://drive.google.com/file/d/108VCn4J6sKof2nd4cVfVb32DyA7I5k6v/view?usp=sharing" rel="noopener noreferrer" target="_blank"><i className="fas fa-file-invoice fa-3x fa-fw"></i></a>
                 </div>
                 <br />
-                <p>Made by Viv's 🧠 </p>
+                <p>Made by Viv's <span role="img" aria-label="Brain">🧠</span> </p>
             </footer>
         );
     }

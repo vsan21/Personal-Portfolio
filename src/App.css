@@ -21,6 +21,7 @@ body {
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
     .intro {
+        background-attachment: scroll;
         height: 60vh;
     }
 }
@@ -31,6 +32,7 @@ body {
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
     .intro {
+        background-attachment: scroll;
         height: 30vh;
     }
 }
@@ -41,6 +43,7 @@ body {
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
     .intro {
+        background-attachment: scroll;
         height: 45vh;
     }
 }
@@ -51,6 +54,7 @@ body {
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
     .intro {
+        background-attachment: scroll;
         height: 45vh;
     }
 }
@@ -61,6 +65,7 @@ body {
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
     .intro {
+        background-attachment: scroll;
         height: 45vh;
     }
 }
