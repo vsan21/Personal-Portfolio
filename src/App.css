@@ -22,7 +22,7 @@ body {
   and (-webkit-min-device-pixel-ratio: 1) {
     .intro {
         background-attachment: scroll;
-        height: 90vh !important;
+        /* height: 90vh !important; */
     }
 }
 
@@ -33,8 +33,8 @@ body {
   and (-webkit-min-device-pixel-ratio: 3) { 
     .intro {
         background-attachment: scroll;
-        background-position: 0% 600% !important;
-        height: 35vh !important;
+        /* background-position: 0% 600% !important; */
+        /* height: 35vh !important; */
     }
 }
 
@@ -45,7 +45,7 @@ body {
   and (-webkit-min-device-pixel-ratio: 3) { 
     .intro {
         background-attachment: scroll;
-        height: 42.5vh !important;
+        /* height: 42.5vh !important; */
     }
 }
 
@@ -56,8 +56,8 @@ body {
   and (-webkit-min-device-pixel-ratio: 2) { 
     .intro {
         background-attachment: scroll;
-        height: 45vh;
-        background-position: 0% 100%;
+        /* height: 45vh; */
+        /* background-position: 0% 100%; */
     }
 }
 
@@ -68,7 +68,7 @@ body {
   and (-webkit-min-device-pixel-ratio: 2) {
     .intro {
         background-attachment: scroll;
-        height: 45vh;
-        background-position: 0% 200%;
+        /* height: 45vh; */
+        /* background-position: 0% 200%; */
     }
 }
