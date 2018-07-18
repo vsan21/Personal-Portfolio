@@ -11,7 +11,7 @@ export class About extends Component {
                 </div>
                 <div id="description-container">
                     <div id='pic'>
-                        <img src={process.env.PUBLIC_URL + '/assets/images/me.jpg'} alt="Vivian"/>
+                        <img src={'/assets/images/me.jpg'} alt="Vivian"/>
                     </div>
                     <div id="border"></div>
                     <div id='description'>
