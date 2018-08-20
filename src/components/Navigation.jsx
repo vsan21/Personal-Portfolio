@@ -25,7 +25,7 @@ export class Navigation extends Component {
                                 Projects
                             </NavItem>
                             <NavItem eventKey={2} href="#blog">
-                                Story
+                                Stories
                             </NavItem>
                         </Nav>
                     </Navbar.Collapse>

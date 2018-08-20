@@ -10,8 +10,10 @@ export class About extends Component {
                     <h1>ABOUT</h1>
                 </div>
                 <div id="description-container">
+                    
                     <div id='pic'>
-                        <img src={'/assets/images/me.jpg'} alt="Vivian"/>
+                        <img src={'/assets/images/casual_me.jpg'} alt="Vivian"/>
+                        <p>Chemist <span><i>turned</i></span> <span>Software Engineer</span></p>
                     </div>
                     <div id="border"></div>
                     <div id='description'>
