@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 8% 0% 25% 0%;
-    /* border-bottom: 1px solid lightgrey; */
+    padding: 8% 0% 20% 0%;
+    border-bottom: 1px solid lightgrey;
 }
 
 #portfolio {

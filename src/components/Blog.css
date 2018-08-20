@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
+@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+
+#blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 0% 10% 0%;
+}
+
+#blog-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.story {
+    /* border: 2px solid green; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 35%;
+    height: 100%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.story-container {
+    margin-top: 5%;
+    background-color: #E0E0E0;
+    display: flex;
+    flex-direction: column;
+}
+
+.story-container h2 {
+    font-size: 2.5vw;
+    font-weight: bold;
+    font-family: 'Marck Script', cursive;
+    text-align: center;
+}
+
+.story-container p {
+    font-size: 1vw;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    text-align: center;
+    margin: 0 5%;
+}
+
+.btn {
+    margin-top: 4%;
+}
+
+.btn.btn-lg {
+    font-size: 0.8vw;
+}
+
+#techtonica-pic {
+    margin-top: 5%;
+    width: 53.7%;
+    height: 53.7%;
+    border-radius: 5%;
+}
+
+#podcast-pic {
+    margin-top: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 5%;
+}
+
